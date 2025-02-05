@@ -1,0 +1,305 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #997c70;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+  width: 70%;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  border-radius: 15px;
+  display: inline-block;
+}
+
+nav {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+  width: 72.2%;
+  background-color: #8eb486;
+  padding: 15px 0;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 80%;
+  margin: 0 auto;
+  border-radius: 15px;
+}
+
+.logo {
+  font-size: 24px;
+  font-family: "Poppins", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  padding: 0;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: "Poppins", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.section {
+  padding: 80px 20px 50px;
+  text-align: center;
+}
+
+/* Про мене */
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  border-radius: 15px;
+}
+
+#about {
+  height: 100vh; /* Займає всю висоту екрану */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.profile-photo {
+  width: 300px; /* Збільшуємо розмір фото */
+  height: 300px;
+  border-radius: 50%;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  margin-right: 40px;
+  object-fit: cover;
+}
+
+.text {
+  max-width: 600px; /* Збільшуємо максимальну ширину тексту */
+  text-align: left;
+  font-family: "Poppins", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.text p {
+  font-size: 20px; /* Збільшуємо шрифт тексту */
+  color: #333;
+  line-height: 1.6;
+  margin-top: 20px;
+}
+
+/* Секція навичок */
+#skills {
+  margin-top: 100px; /* Відступ вниз для зміщення секції */
+  text-align: center;
+}
+
+/* Контейнер для кожного скіла */
+.skill-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: white;
+  padding: 50px;
+  margin: 20px auto;
+  width: 80%;
+  max-width: 900px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Ліва частина — заголовок і текст */
+.skill-info {
+  flex: 1;
+  text-align: left;
+}
+
+.skill-info h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #997c70;
+}
+
+.skill-info p {
+  font-size: 16px;
+  color: #333;
+  max-width: 300px;
+}
+
+/* Права частина — контейнер для 3D об'єкта */
+.skill-3d {
+  width: 200px;
+  height: 200px;
+  background: transparent;
+}
+
+.anim-container {
+  display: inline-block;
+}
+.anim {
+  font-size: 36px; /* Збільшуємо розмір тексту для анімації */
+  width: 100%;
+  white-space: nowrap;
+  font-family: "Poppins", serif;
+  font-weight: 500;
+  font-style: normal;
+  border-right: 2px solid black;
+  overflow: hidden;
+  animation: typing 2s, cursor 0.4s step-end infinite alternate;
+}
+
+/* Секція проектів */
+#projects {
+  text-align: center;
+  margin-top: 100px; /* Відступ вниз для зміщення секції */
+}
+
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.project-item {
+  background: white;
+  padding: 20px;
+  max-width: 300px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.project-image {
+  width: 100%; /* забезпечує, що зображення займає всю ширину контейнера */
+  height: 200px; /* фіксована висота */
+  object-fit: cover; /* зберігає співвідношення сторін зображення, заповнюючи контейнер */
+  border-radius: 10px; /* закруглені кути */
+}
+
+.project-info h3 {
+  font-size: 20px;
+  margin-top: 10px;
+  color: #997c70;
+}
+
+.project-info p {
+  font-size: 16px;
+  color: #333;
+  margin-top: 10px;
+}
+
+.project-link,
+.project-code-link {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #8eb486;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.project-code-link {
+  background-color: #333;
+  margin-left: 10px;
+}
+
+.project-link:hover,
+.project-code-link:hover {
+  background-color: #6b9d61;
+}
+
+@keyframes cursor {
+  50% {
+    border-color: transparent;
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+/* Секція Contacts */
+#contacts {
+  padding: 50px 20px;
+  text-align: center;
+  border-top: 2px solid #e0e0e0;
+}
+
+#contacts h2 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+.contacts-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.contact-item {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  transition: transform 0.3s ease;
+}
+
+.contact-item p {
+  font-size: 18px;
+  color: #555;
+}
+
+.contact-item a {
+  color: #8eb486; /* Синій колір для лінків */
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.contact-item a:hover {
+  text-decoration: underline;
+}
