@@ -10,6 +10,10 @@ body {
   align-items: center;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .content {
   font-family: "Poppins", serif;
   font-weight: 400;
