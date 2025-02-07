@@ -419,7 +419,7 @@ nav {
 
   .wave-container {
     position: absolute;
-    top: 50%;
+    top: 90%;
     left: 0;
     width: 100%;
     line-height: 0;
@@ -429,7 +429,7 @@ nav {
     position: relative;
     display: block;
     width: 100%;
-    height: 85px; /* Було 100px */
+    height: 35px; /* Було 100px */
     transform: scaleY(-1);
   }
 }
