@@ -114,3 +114,14 @@ create3DModel("three-js-post");
 create3DModel("three-js-express");
 create3DModel("three-js-prisma");
 create3DModel("three-js-vercel");
+
+//burger
+
+document.addEventListener("DOMContentLoaded", () => {
+  const burgerMenu = document.querySelector(".burger-menu");
+  const navLinks = document.querySelector(".nav-links");
+
+  burgerMenu.addEventListener("click", () => {
+    navLinks.classList.toggle("active");
+  });
+});
