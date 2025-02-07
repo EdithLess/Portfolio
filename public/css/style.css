@@ -385,4 +385,26 @@ nav {
   .burger-menu.open span:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
   }
+
+  .skill-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: white;
+    padding: 30px;
+    margin: 20px auto;
+    width: 75%;
+    max-width: 300px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  #about {
+    height: 80vh; /* Займає всю висоту екрану */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+  }
 }
