@@ -60,7 +60,7 @@ nav {
   font-style: normal;
   width: 80%;
   background-color: #8eb486;
-  padding: 15px 0;
+  padding: 15px 20px;
   color: white;
   position: fixed;
   top: 0;
@@ -406,5 +406,13 @@ nav {
     align-items: center;
     justify-content: space-around;
     padding: 20px;
+  }
+
+  .profile-photo {
+    width: 200px; /* Збільшуємо розмір фото */
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    object-fit: cover;
   }
 }
